@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Richar</h1>
+        <h2>Tamagotchi</h2>
+       <div class="tamagochi-container">
+            <img src="./imagenes/pluto.gif" class="tamagochi-body" id="change-img" alt="">
+       </div>
+
+       <div class="barras">
+            <div class="container-skill">
+                <div class="Life">
+                    <div class="container-bar">
+                        <h2 class="titulo-bar">Vida</h2>
+                        <div class="progress">
+                            <div class="bar bar-life-progress inicio animation" role="life-progress"></div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="container-bar">
+                        <h2 class="titulo-bar">Comida</h2>
+                        <div class="progress">
+                            <div class="bar-food bar inicio animation" role="food-progress"></div>
+                        </div>
+                    </div>
+                    <button class="button-food">Alimentar</button>
+                </div>
+                <div class="container">
+                    <div class="container-bar">
+                        <h2 class="titulo-bar">Sueño</h2>
+                        <div class="progress">
+                            <div class="bar-sleep bar inicio animation" role="sleep-progress"></div>
+                        </div>
+                    </div>
+                    <button class="button-sleep">Jugar</button>
+                </div>
+            </div>
+       </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>

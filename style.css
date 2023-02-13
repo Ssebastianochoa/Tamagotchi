@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main-container {
+    width: 75vh;
+    height: 95vh;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px gray;
+    background-image: url('./imagenes/ladrillos-rojos-modelo-del-vector-108216360.jpg');
+}
+h1,
+h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.tamagochi-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+    height: 255px;
+    
+}
+.tamagochi-container img{
+    width: 200px;
+}
+
+.progress {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+.bar{
+    border: none;
+    height: 20px;
+    border-radius: 10px;
+    background-color: green;
+    
+}
+.life{
+    height: 15px;
+    width: 100%;
+    background-color: papayawhip;
+   
+}
+.button-food,
+.button-sleep {
+    width:100px;
+    height: 40px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    background-color: rgb(198, 52, 52);
+    border-radius: 5px;
+}
+.inicio {
+    width: 0%;
+}
+.final {
+    width: 100%;
+}
+.animation {
+    transition: all 2s ease .1s;
+}
